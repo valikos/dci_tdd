@@ -1,1 +1,1 @@
-# Dir[Rails.root.join('lib/rom_env.rb')].each { |f| require f }
+Dir[Rails.root.join('app/roles/**/*.rb')].each { |f| require f }
