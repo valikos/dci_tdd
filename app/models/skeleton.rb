@@ -1,0 +1,3 @@
+class Skeleton < Character
+
+end
