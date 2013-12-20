@@ -20,6 +20,11 @@ module Contexts
     def initialize(hero, enemy)
       @hero = hero
       @enemy = enemy
+      @hero.extend Roles::HitEnemy
+    end
+
+    def play
+      hero.hit enemy
     end
 
   end
